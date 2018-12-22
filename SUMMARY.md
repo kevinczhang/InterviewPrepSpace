@@ -10,6 +10,7 @@
   * [Java APIs](common-apis/common-apis-2/README.md)
     * [String methods](common-apis/common-apis-2/string-methods.md)
     * [Collection Interface](common-apis/common-apis-2/collection-interface.md)
+    * [List Interface](common-apis/common-apis-2/list-interface.md)
 
 ## A Group
 

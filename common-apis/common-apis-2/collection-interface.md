@@ -39,5 +39,8 @@ while(itr.hasNext()) {
 11.  [`toArray`](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html#toArray--)`();`Returns an array containing all of the elements in this collection.
 12.  [`isEmpty`](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html#isEmpty--)`();`Returns true if this collection contains no elements.
 
+## Interface List&lt;E&gt; 
 
 
+
+1. 
