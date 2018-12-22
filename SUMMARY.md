@@ -8,6 +8,7 @@
     * [Binary Tree Inorder Traversal](commonalgorithms/tree/binary_tree_inorder_traversal.md)
 * [Common APIs](common-apis/README.md)
   * [Java APIs](common-apis/common-apis-2/README.md)
+    * [String methods](common-apis/common-apis-2/string-methods.md)
     * [Collection Interface](common-apis/common-apis-2/collection-interface.md)
 
 ## A Group
