@@ -1,9 +1,9 @@
-# Summary
+# Table of contents
 
 * [Introduction](README.md)
-* [Common Algorithms](commonAlgorithms/README.md)
-    * [String](commonAlgorithms/string/README.md)
-        * [KMP](commonAlgorithms/string/KMP.md)
-    * [Tree](commonAlgorithms/tree/README.md)
-        * [Binary Tree Inorder Traversal](commonAlgorithms/tree/binary_Tree_Inorder_Traversal.md)
+* [Common Algorithms](commonalgorithms/README.md)
+  * [String](commonalgorithms/string/README.md)
+    * [KMP](commonalgorithms/string/kmp.md)
+  * [Tree](commonalgorithms/tree/README.md)
+    * [Binary Tree Inorder Traversal](commonalgorithms/tree/binary_tree_inorder_traversal.md)
 
