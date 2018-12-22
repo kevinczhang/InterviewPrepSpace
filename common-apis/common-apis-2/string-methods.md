@@ -1,3 +1,7 @@
+---
+description: Most commonly used methods for string manipulations
+---
+
 # String methods
 
 ## Most commonly used:
@@ -35,6 +39,8 @@ Character.toUpperCase(strChar);
 ```java
 int StrCompareTo = "".compareTo(testStr);
 ```
+
+
 
 ## Replace and split methods
 
