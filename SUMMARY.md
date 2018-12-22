@@ -11,6 +11,7 @@
     * [String methods](common-apis/common-apis-2/string-methods.md)
     * [Collection Interface](common-apis/common-apis-2/collection-interface.md)
     * [List Interface](common-apis/common-apis-2/list-interface.md)
+    * [Queue Interface](common-apis/common-apis-2/queue-interface.md)
 
 ## A Group
 
