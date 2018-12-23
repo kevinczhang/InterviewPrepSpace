@@ -1,2 +1,43 @@
+---
+description: Commonly used APIs for Set interface
+---
+
 # Set Interface
+
+## Overview
+
+```java
+public interface Collection<E> extends Iterable<E>
+```
+
+1. SortedSet is a subInterface of Set Interface. TreeSet implemented SortedSet.
+2. HashSet and LinkedHashSet are common implementations of Set Interface.
+
+## SorteSet
+
+### Commonly used methods
+
+1.  [`first`](https://docs.oracle.com/javase/8/docs/api/java/util/SortedSet.html#first--)`()`Returns the first \(lowest\) element currently in this set.
+2.  [`headSet`](https://docs.oracle.com/javase/8/docs/api/java/util/SortedSet.html#headSet-E-)`(`[`E`](https://docs.oracle.com/javase/8/docs/api/java/util/SortedSet.html) `toElement)`Returns a view of the portion of this set whose elements are strictly less than toElement.
+3.  [`last`](https://docs.oracle.com/javase/8/docs/api/java/util/SortedSet.html#last--)`()`Returns the last \(highest\) element currently in this set.
+4.  [`subSet`](https://docs.oracle.com/javase/8/docs/api/java/util/SortedSet.html#subSet-E-E-)`(`[`E`](https://docs.oracle.com/javase/8/docs/api/java/util/SortedSet.html) `fromElement,` [`E`](https://docs.oracle.com/javase/8/docs/api/java/util/SortedSet.html) `toElement)`Returns a view of the portion of this set whose elements range from fromElement, inclusive, to toElement, exclusive.
+5.  [`tailSet`](https://docs.oracle.com/javase/8/docs/api/java/util/SortedSet.html#tailSet-E-)`(`[`E`](https://docs.oracle.com/javase/8/docs/api/java/util/SortedSet.html) `fromElement)`Returns a view of the portion of this set whose elements are greater than or equal to fromElement.
+
+### TreeSet
+
+#### Constructor Summary
+
+1.  [`TreeSet`](https://docs.oracle.com/javase/8/docs/api/java/util/TreeSet.html#TreeSet--)`()`Constructs a new, empty tree set, sorted according to the natural ordering of its elements.
+2.  [`TreeSet`](https://docs.oracle.com/javase/8/docs/api/java/util/TreeSet.html#TreeSet-java.util.Collection-)`(`[`Collection`](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html)`<? extends` [`E`](https://docs.oracle.com/javase/8/docs/api/java/util/TreeSet.html)`> c)`Constructs a new tree set containing the elements in the specified collection, sorted according to the natural ordering of its elements.
+3.  [`TreeSet`](https://docs.oracle.com/javase/8/docs/api/java/util/TreeSet.html#TreeSet-java.util.Comparator-)`(`[`Comparator`](https://docs.oracle.com/javase/8/docs/api/java/util/Comparator.html)`<? super` [`E`](https://docs.oracle.com/javase/8/docs/api/java/util/TreeSet.html)`> comparator)`Constructs a new, empty tree set, sorted according to the specified comparator.
+
+#### Method Summary
+
+1.  [`ceiling`](https://docs.oracle.com/javase/8/docs/api/java/util/TreeSet.html#ceiling-E-)`(`[`E`](https://docs.oracle.com/javase/8/docs/api/java/util/TreeSet.html) `e)`Returns the least element in this set greater than or equal to the given element, or `null` if there is no such element.
+2.  [`floor`](https://docs.oracle.com/javase/8/docs/api/java/util/TreeSet.html#floor-E-)`(`[`E`](https://docs.oracle.com/javase/8/docs/api/java/util/TreeSet.html) `e)`Returns the greatest element in this set less than or equal to the given element, or `null` if there is no such element.
+3.  [`first`](https://docs.oracle.com/javase/8/docs/api/java/util/TreeSet.html#first--)`()`Returns the first \(lowest\) element currently in this set.
+4.  [`last`](https://docs.oracle.com/javase/8/docs/api/java/util/TreeSet.html#last--)`()`Returns the last \(highest\) element currently in this set.
+5.  [`pollFirst`](https://docs.oracle.com/javase/8/docs/api/java/util/TreeSet.html#pollFirst--)`()`Retrieves and removes the first \(lowest\) element, or returns `null` if this set is empty.
+6.  [`pollLast`](https://docs.oracle.com/javase/8/docs/api/java/util/TreeSet.html#pollLast--)`()`Retrieves and removes the last \(highest\) element, or returns `null` if this set is empty.
+7.  [`descendingIterator`](https://docs.oracle.com/javase/8/docs/api/java/util/TreeSet.html#descendingIterator--)`()`Returns an iterator over the elements in this set in descending order.
 

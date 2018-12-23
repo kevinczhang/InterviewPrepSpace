@@ -9,7 +9,7 @@
 * [Common APIs](common-apis/README.md)
   * [Java APIs](common-apis/common-apis-2/README.md)
     * [String methods](common-apis/common-apis-2/string-methods.md)
-    * [Collection Interface](common-apis/common-apis-2/collection-interface/README.md)
+    * [Collection Interface and Collections Class](common-apis/common-apis-2/collection-interface/README.md)
       * [List Interface](common-apis/common-apis-2/collection-interface/list-interface.md)
       * [Queue Interface](common-apis/common-apis-2/collection-interface/queue-interface.md)
       * [Set Interface](common-apis/common-apis-2/collection-interface/set-interface.md)
