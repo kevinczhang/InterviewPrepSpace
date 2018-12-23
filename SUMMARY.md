@@ -14,6 +14,8 @@
       * [Queue Interface](common-apis/common-apis-2/collection-interface/queue-interface.md)
       * [Set Interface](common-apis/common-apis-2/collection-interface/set-interface.md)
     * [Map Interface](common-apis/common-apis-2/map-interface.md)
+  * [C\# APIs](common-apis/c-apis/README.md)
+    * [String methods](common-apis/c-apis/string-methods.md)
 
 ## A Group
 
