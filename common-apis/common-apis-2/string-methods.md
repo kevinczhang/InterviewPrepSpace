@@ -40,8 +40,6 @@ Character.toUpperCase(strChar);
 int StrCompareTo = "".compareTo(testStr);
 ```
 
-
-
 ## Replace and split methods
 
 1.  [`replace`](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#replace-char-char-)`(char oldChar, char newChar);`Returns a string resulting from replacing all occurrences of `oldChar` in this string with `newChar`.

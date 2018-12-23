@@ -13,6 +13,7 @@
       * [List Interface](common-apis/common-apis-2/collection-interface/list-interface.md)
       * [Queue Interface](common-apis/common-apis-2/collection-interface/queue-interface.md)
       * [Set Interface](common-apis/common-apis-2/collection-interface/set-interface.md)
+    * [Map Interface](common-apis/common-apis-2/map-interface.md)
 
 ## A Group
 
