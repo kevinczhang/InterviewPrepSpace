@@ -1,7 +1,3 @@
----
-description: Commonly used methods of Map interface
----
-
 # Map Interface
 
 ## Overview

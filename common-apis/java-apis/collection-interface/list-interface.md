@@ -1,7 +1,3 @@
----
-description: Commonly used APIs for List interface
----
-
 # List Interface
 
 ## Implementations

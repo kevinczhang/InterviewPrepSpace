@@ -1,7 +1,3 @@
----
-description: Basic concepts about Collection interface and Collections Class
----
-
 # Collection Interface and Collections Class
 
 ## Collection Interface

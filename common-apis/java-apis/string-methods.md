@@ -1,7 +1,3 @@
----
-description: Most commonly used methods for string manipulations
----
-
 # String methods
 
 ## Most commonly used:
