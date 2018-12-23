@@ -26,7 +26,7 @@ while(itr.hasNext()) {
 
 ### Collection subInterfaces and methods
 
-1. Commonly used subInterfaces: List, Queue and Set
+1. Commonly used subInterfaces: [List](https://interviewprepspace.gitbook.io/project/~/edit/drafts/-LUNMZGQAZaD5Ap8yYw1/common-apis/common-apis-2/collection-interface/list-interface), [Queue](https://interviewprepspace.gitbook.io/project/~/edit/drafts/-LUNMZGQAZaD5Ap8yYw1/common-apis/common-apis-2/collection-interface/queue-interface) and Set
 2.  [`add`](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html#add-E-)`(`[`E`](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html) `e);`Ensures that this collection contains the specified element \(optional operation\).
 3.  [`addAll`](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html#addAll-java.util.Collection-)`(`[`Collection`](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html)`<? extends` [`E`](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html)`> c);`Adds all of the elements in the specified collection to this collection \(optional operation\).
 4.  [`clear`](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html#clear--)`();`Removes all of the elements from this collection \(optional operation\).
