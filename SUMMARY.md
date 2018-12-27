@@ -16,6 +16,7 @@
     * [Map Interface](common-apis/java-apis/map-interface.md)
   * [C\# APIs](common-apis/c-apis/README.md)
     * [String methods](common-apis/c-apis/string-methods.md)
+    * [IEnumerable and IEnumerator Interfaces](common-apis/c-apis/ienumerable.md)
 
 ## A Group
 
