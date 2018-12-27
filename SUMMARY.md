@@ -17,6 +17,9 @@
   * [C\# APIs](common-apis/c-apis/README.md)
     * [String methods](common-apis/c-apis/string-methods.md)
     * [IEnumerable and IEnumerator Interfaces](common-apis/c-apis/ienumerable.md)
+    * [ICollection Interface](common-apis/c-apis/icollection-interface.md)
+    * [IDictionary](common-apis/c-apis/idictionary.md)
+    * [IList](common-apis/c-apis/ilist.md)
 
 ## A Group
 
