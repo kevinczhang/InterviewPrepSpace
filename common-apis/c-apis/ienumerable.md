@@ -12,7 +12,7 @@ IEnumerable is the base interface of all collection classes as shown below.
 
 ![](../../.gitbook/assets/image%20%285%29.png)
 
-All classes implemented IEnumerable can be looped using foreach:
+ This interface enables foreach. LINQ acts on IEnumerable things.  We can apply many transformations to an IEnumerable instance, including the ToList and ToArray conversions.
 
 ```csharp
 IEnumerable<int> result = from value in Enumerable.Range(0, 2)
@@ -148,6 +148,40 @@ class App
         foreach (Person p in peopleList)
             Console.WriteLine(p.firstName + " " + p.lastName);
 
+    }
+}
+```
+
+## Looping 2D array
+
+```csharp
+using System;
+using System.Collections.Generic;
+
+class Program
+{
+    static int[,] _grid = new int[15, 15];
+    static void Main()
+    {
+        _grid[0, 1] = 4;
+        _grid[4, 4] = 5;
+        _grid[14, 2] = 3;
+        int r = 0;
+        foreach (int v in GridValues())
+        {
+            r += v;
+        }
+        Console.WriteLine(r);
+    }
+    public static IEnumerable<int> GridValues()
+    {
+        for (int x = 0; x < 15; x++)
+        {
+            for (int y = 0; y < 15; y++)
+            {
+                yield return _grid[x, y];
+            }
+        }
     }
 }
 ```
