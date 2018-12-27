@@ -10,6 +10,8 @@ description: >-
 
 IEnumerable is the base interface of all collection classes as shown below.
 
+![](../../.gitbook/assets/image%20%285%29.png)
+
 All classes implemented IEnumerable can be looped using foreach:
 
 ```csharp
