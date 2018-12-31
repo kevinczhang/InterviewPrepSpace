@@ -1,5 +1,8 @@
 ---
-description: All string methods returns new values. They do not change the original string.
+description: >-
+  Strings implement all of the common sequence operations, along with the
+  additional methods described below. All string methods returns new values.
+  They do not change the original string.
 ---
 
 # String

@@ -1,8 +1,12 @@
 ---
-description: Set is a collection which is unordered and unindexed. No duplicate members.
+description: >-
+  A set object is an unordered collection of distinct hashable objects. Set is a
+  collection which is unordered and unindexed. No duplicate members.
 ---
 
-# Set
+# Set Types
+
+ There are currently two built-in set types, [`set`](https://docs.python.org/3/library/stdtypes.html#set) and [`frozenset`](https://docs.python.org/3/library/stdtypes.html#frozenset). The [`set`](https://docs.python.org/3/library/stdtypes.html#set) type is mutable, but  The [`frozenset`](https://docs.python.org/3/library/stdtypes.html#frozenset) type is immutable.
 
 ## Commonly used methods
 

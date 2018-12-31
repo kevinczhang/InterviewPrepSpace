@@ -4,7 +4,7 @@ description: >-
   duplicate members.
 ---
 
-# Dictionary
+# Mapping Types
 
 ## Commonly used methods
 
@@ -21,4 +21,16 @@ description: >-
 | [setdefault\(\)](https://www.w3schools.com/python/ref_dictionary_setdefault.asp) | Returns the value of the specified key. If the key does not exist: insert the key, with the specified value |
 | [update\(\)](https://www.w3schools.com/python/ref_dictionary_update.asp) | Updates the dictionary with the specified key-value pairs |
 | [values\(\)](https://www.w3schools.com/python/ref_dictionary_values.asp) | Returns a list of all the values in the dictionary |
+
+```python
+>>> a = dict(one=1, two=2, three=3)
+>>> b = {'one': 1, 'two': 2, 'three': 3}
+>>> c = dict(zip(['one', 'two', 'three'], [1, 2, 3]))
+>>> d = dict([('two', 2), ('one', 1), ('three', 3)])
+>>> e = dict({'three': 3, 'one': 1, 'two': 2})
+>>> a == b == c == d == e
+True
+```
+
+
 

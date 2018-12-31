@@ -23,9 +23,10 @@
   * [Python APIs](common-apis/python-apis/README.md)
     * [Built in Functions](common-apis/python-apis/built-in-functions.md)
     * [String](common-apis/python-apis/string-methods.md)
-    * [List/Array](common-apis/python-apis/list-array.md)
-    * [Dictionary](common-apis/python-apis/dictionary.md)
-    * [Set](common-apis/python-apis/set.md)
+    * [Collections](common-apis/python-apis/collections/README.md)
+      * [Sequence Types](common-apis/python-apis/collections/list-array.md)
+      * [Mapping Types](common-apis/python-apis/collections/dictionary.md)
+      * [Set Types](common-apis/python-apis/collections/set.md)
 
 ## A Group
 
