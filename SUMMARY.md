@@ -20,6 +20,9 @@
     * [ICollection Interface](common-apis/c-apis/icollection-interface/README.md)
       * [IDictionary](common-apis/c-apis/icollection-interface/idictionary.md)
       * [IList](common-apis/c-apis/icollection-interface/ilist.md)
+  * [Python APIs](common-apis/python-apis/README.md)
+    * [Built in Functions](common-apis/python-apis/built-in-functions.md)
+    * [String Methods](common-apis/python-apis/string-methods.md)
 
 ## A Group
 
