@@ -22,7 +22,10 @@
       * [IList](common-apis/c-apis/icollection-interface/ilist.md)
   * [Python APIs](common-apis/python-apis/README.md)
     * [Built in Functions](common-apis/python-apis/built-in-functions.md)
-    * [String Methods](common-apis/python-apis/string-methods.md)
+    * [String](common-apis/python-apis/string-methods.md)
+    * [List/Array](common-apis/python-apis/list-array.md)
+    * [Dictionary](common-apis/python-apis/dictionary.md)
+    * [Set](common-apis/python-apis/set.md)
 
 ## A Group
 
