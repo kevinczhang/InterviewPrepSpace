@@ -11,6 +11,7 @@
   * [Java APIs](common-apis/java-apis/README.md)
     * [String methods](common-apis/java-apis/string-methods.md)
     * [Collection Interface and Collections Class](common-apis/java-apis/collection-interface/README.md)
+      * [Stream](common-apis/java-apis/collection-interface/stream.md)
       * [List Interface](common-apis/java-apis/collection-interface/list-interface.md)
       * [Queue Interface](common-apis/java-apis/collection-interface/queue-interface.md)
       * [Set Interface](common-apis/java-apis/collection-interface/set-interface.md)
