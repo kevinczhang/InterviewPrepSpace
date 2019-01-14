@@ -92,3 +92,11 @@ class Program
 }
 ```
 
+## SortedDictionary&lt;TKey,TValue&gt; Class
+
+ Represents a collection of key/value pairs that are sorted on the key.
+
+ The [SortedDictionary&lt;TKey,TValue&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.sorteddictionary-2?view=netcore-2.2) generic class is a binary search tree with O\(log n\) retrieval, where n is the number of elements in the dictionary.  Each key/value pair can be retrieved as a [KeyValuePair&lt;TKey,TValue&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.keyvaluepair-2?view=netcore-2.2) structure, or as a [DictionaryEntry](https://docs.microsoft.com/en-us/dotnet/api/system.collections.dictionaryentry?view=netcore-2.2) through the nongeneric [IDictionary](https://docs.microsoft.com/en-us/dotnet/api/system.collections.idictionary?view=netcore-2.2) interface. 
+
+[SortedDictionary&lt;TKey,TValue&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.sorteddictionary-2?view=netcore-2.2) requires a comparer implementation to perform key comparisons. You can specify an implementation of the [IComparer&lt;T&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.icomparer-1?view=netcore-2.2) generic interface by using a constructor that accepts a `comparer` parameter; if you do not specify an implementation, the default genericcomparer [Comparer&lt;T&gt;.Default](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.comparer-1.default?view=netcore-2.2) is used. If type `TKey` implements the [System.IComparable&lt;T&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.icomparable-1?view=netcore-2.2) generic interface, the default comparer uses that implementation.
+
