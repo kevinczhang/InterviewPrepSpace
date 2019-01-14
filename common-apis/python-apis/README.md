@@ -6,7 +6,7 @@ description: 'In this section, all commonly used Python APIs are listed'
 
 ## Built-in types heritage
 
-![](../../.gitbook/assets/image%20%286%29.png)
+![](../../.gitbook/assets/image.png)
 
 ## Inheritance
 

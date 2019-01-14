@@ -10,7 +10,7 @@ description: >-
 
 IEnumerable is the base interface of all collection classes as shown below. [IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerable?view=netcore-2.2) is the base interface for all non-generic collections that can be enumerated. For the generic version of this interface see [System.Collections.Generic.IEnumerable&lt;T&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1?view=netcore-2.2). [IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerable?view=netcore-2.2) contains a single method, [GetEnumerator](https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerable.getenumerator?view=netcore-2.2), which returns an [IEnumerator](https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerator?view=netcore-2.2). [IEnumerator](https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerator?view=netcore-2.2) provides the ability to iterate through the collection by exposing a [Current](https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerator.current?view=netcore-2.2) property and [MoveNext](https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerator.movenext?view=netcore-2.2) and [Reset](https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerator.reset?view=netcore-2.2) methods.
 
-![](../../.gitbook/assets/image%20%285%29.png)
+![](../../.gitbook/assets/image%20%287%29.png)
 
  This interface enables foreach. LINQ acts on IEnumerable things.  We can apply many transformations to an IEnumerable instance, including the ToList and ToArray conversions.
 
