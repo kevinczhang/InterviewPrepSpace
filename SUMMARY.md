@@ -8,6 +8,7 @@
     * [Binary Tree Inorder Traversal](commonalgorithms/tree/binary_tree_inorder_traversal.md)
     * [Binary Tree Preorder Traversal](commonalgorithms/tree/tree-preorder-traversal.md)
     * [Binary Tree Postorder Traversal](commonalgorithms/tree/binary-tree-postorder-traversal.md)
+    * [Remove Node in Binary Search Tree](commonalgorithms/tree/remove-node-in-binary-search-tree.md)
     * [Inorder predecessor in Binary Search Tree](commonalgorithms/tree/inorder-predecessor-in-binary-search-tree.md)
 * [Common APIs](common-apis/README.md)
   * [Java APIs](common-apis/java-apis/README.md)
