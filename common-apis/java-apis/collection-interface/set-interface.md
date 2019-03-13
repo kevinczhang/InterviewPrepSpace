@@ -9,7 +9,7 @@ public interface Collection<E> extends Iterable<E>
 1. SortedSet is a subInterface of Set Interface. TreeSet implemented SortedSet.
 2. HashSet and LinkedHashSet are common implementations of Set Interface.
 
-## SorteSet
+## SortedSet
 
 ### Commonly used methods
 
@@ -19,7 +19,7 @@ public interface Collection<E> extends Iterable<E>
 4.  [`subSet`](https://docs.oracle.com/javase/8/docs/api/java/util/SortedSet.html#subSet-E-E-)`(`[`E`](https://docs.oracle.com/javase/8/docs/api/java/util/SortedSet.html) `fromElement,` [`E`](https://docs.oracle.com/javase/8/docs/api/java/util/SortedSet.html) `toElement)`Returns a view of the portion of this set whose elements range from fromElement, inclusive, to toElement, exclusive.
 5.  [`tailSet`](https://docs.oracle.com/javase/8/docs/api/java/util/SortedSet.html#tailSet-E-)`(`[`E`](https://docs.oracle.com/javase/8/docs/api/java/util/SortedSet.html) `fromElement)`Returns a view of the portion of this set whose elements are greater than or equal to fromElement.
 
-### TreeSet
+## TreeSet
 
 #### Constructor Summary
 
