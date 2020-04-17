@@ -2,7 +2,7 @@
 
  The predecessor of a node x in a search tree is the node with largest key that belongs to the tree and that is strictly less than x’s key.
 
-![Sample BST](../../.gitbook/assets/image%20%2818%29.png)
+![Sample BST](../../../.gitbook/assets/image%20%2818%29.png)
 
  In above binary search tree, in-order predecessor of 17 is 15 , predecessor of 6 is 4 and predecessor of 13 is 9.  
 
