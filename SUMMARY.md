@@ -65,5 +65,6 @@
   * [Tiny URL](design/system-design/tiny-url.md)
   * [Distributed caching system](design/system-design/distributed-caching-system.md)
   * [Messenger Design](design/system-design/messenger-design.md)
-* [Storage design](design/storage-design.md)
+* [Storage design](design/storage-design/README.md)
+  * [Design Cache](design/storage-design/design-cache.md)
 
