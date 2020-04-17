@@ -61,4 +61,8 @@
 
 * [System design](design/system-design/README.md)
   * [Large social network](design/system-design/large-social-network.md)
+  * [Billion pages](design/system-design/billion-pages.md)
+  * [Tiny URL](design/system-design/tiny-url.md)
+  * [Distributed caching system](design/system-design/distributed-caching-system.md)
+  * [Messenger Design](design/system-design/messenger-design.md)
 
