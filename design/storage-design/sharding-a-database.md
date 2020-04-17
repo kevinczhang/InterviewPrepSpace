@@ -2,7 +2,7 @@
 
 Let's design a sharding scheme for key-value storage.
 
-![](../../.gitbook/assets/image%20%2810%29.png)
+![](../../.gitbook/assets/image%20%2811%29.png)
 
 ## Features:
 
@@ -64,15 +64,15 @@ A: Lets say our number of shards is S. One way to shard is that for every key, w
 
 A: Consistent hashing is ideal for the situation described here. Lets explore consistent hashing here. Let's say we calculate a 64 bit integer hash for every key and map it to a ring. Lets say we start with X shards. Each shard is assigned a position on the ring as well. Each key maps to the first shard on the ring in clockwise direction.
 
-![](../../.gitbook/assets/image%20%2813%29.png)
+![](../../.gitbook/assets/image%20%2814%29.png)
 
 What happens if we need to add another shard ? Or what if one of the shard goes down and we need to re-distribute the data among remaining shards?
 
-![](../../.gitbook/assets/image%20%2817%29.png)
+![](../../.gitbook/assets/image%20%2820%29.png)
 
 Similarily, there is a problem of cascading failure when a shard goes down.
 
-![](../../.gitbook/assets/image%20%2822%29.png)
+![](../../.gitbook/assets/image%20%2825%29.png)
 
 ### Modified consistent hashing 
 

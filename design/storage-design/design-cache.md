@@ -117,7 +117,7 @@ A: If we only have one machine per shard, then if the machine goes down, all req
 * Master slave technique : There is only one active server at a time in a shard and it has a follower which keeps getting the update. When the master server goes down, the slave server takes over as the master server. Master and slave can maintain a change log with version number to make sure they are caught up.
 * If we are fine with all servers becoming eventually consistent, then we can have one master \( taking all the write traffic \) and many slaves where slaves can service the read traffic as well.
 
-![](../../.gitbook/assets/image%20%2811%29.png)
+![](../../.gitbook/assets/image%20%2812%29.png)
 
 
 

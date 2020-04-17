@@ -191,7 +191,7 @@ A: The simplest thing that could be done here is to have multiple application se
 
 A: We introduce load balancers. Load balancers are a set of machines \(an order of magnitude lower in number\) which track the set of application servers which are active \( not gone down \). Client can send request to any of the load balancers who then forward the request to one of the working application servers randomly.
 
-![](../../.gitbook/assets/image%20%2826%29.png)
+![](../../.gitbook/assets/image%20%2829%29.png)
 
 A: If we have only one application server machine, our whole service would become unavailable. Machines will fail and so will network. So, we need to plan for those events. Multiple application server machines along with load balancer is the way to go.
 
@@ -261,11 +261,11 @@ There are some issues with this system :
   * More users would keep registering. How would they be assigned ensuring uniform load?
   * What if we did not have a backup server and I had to re-distribute this user’s load into remaining servers? A classic solution to this problem is consistent hashing with multiple tokens for each server \( See diagram attached \). For more details, read [https://www.interviewbit.com/problems/sharding-a-database/](https://www.interviewbit.com/problems/sharding-a-database/)
 
-![](../../.gitbook/assets/image%20%2818%29.png)
+![](../../.gitbook/assets/image%20%2821%29.png)
 
 A minor problem - Multiple concurrent writes : The caching server will also multiple indices corresponding to the mailbox \( the ones for recent conversations / recent messages \). A single write would affect multiple columns. While a NoSQL DB might guarantee atomicity on a row level, in the caching layer, we will have to guarantee it artificially. One simple way of solving it would be to have a user level lock in the caching server for the user which allows only one write operation to go through at a time.
 
-![](../../.gitbook/assets/image%20%289%29.png)
+![](../../.gitbook/assets/image%20%2810%29.png)
 
 
 
