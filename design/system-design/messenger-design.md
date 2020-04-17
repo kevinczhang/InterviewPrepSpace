@@ -191,7 +191,7 @@ A: The simplest thing that could be done here is to have multiple application se
 
 A: We introduce load balancers. Load balancers are a set of machines \(an order of magnitude lower in number\) which track the set of application servers which are active \( not gone down \). Client can send request to any of the load balancers who then forward the request to one of the working application servers randomly.
 
-![](../../.gitbook/assets/image%20%2829%29.png)
+![](../../.gitbook/assets/image%20%2830%29.png)
 
 A: If we have only one application server machine, our whole service would become unavailable. Machines will fail and so will network. So, we need to plan for those events. Multiple application server machines along with load balancer is the way to go.
 

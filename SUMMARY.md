@@ -69,4 +69,5 @@
   * [Design Cache](design/storage-design/design-cache.md)
   * [Sharding a Database](design/storage-design/sharding-a-database.md)
   * [Highly Available Database](design/storage-design/highly-available-database.md)
+  * [Highly Consistent Database](design/storage-design/highly-consistent-database.md)
 

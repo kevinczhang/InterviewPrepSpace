@@ -72,7 +72,7 @@ What happens if we need to add another shard ? Or what if one of the shard goes 
 
 Similarily, there is a problem of cascading failure when a shard goes down.
 
-![](../../.gitbook/assets/image%20%2825%29.png)
+![](../../.gitbook/assets/image%20%2826%29.png)
 
 ### Modified consistent hashing 
 
