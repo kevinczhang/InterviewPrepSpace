@@ -14,6 +14,8 @@ That is may only the elements where 0 ~ A.heap-size are valid elements of the he
 The root of the tree is A\[0\], and given the index i of a node, we can easily compute the indices of its parent, left child, and right child:
 
 * PARENT index of node i : \(i -1\)/2
-* LEFT node index of node i: 2i
-* RIGHT node index of node i: 2i + 1
+* LEFT node index of node i: 2\(i+1\) - 1
+* RIGHT node index of node i: 2\(i+1\)
+
+
 
