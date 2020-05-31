@@ -4,6 +4,9 @@
 
 ## Algorithm <a id="a-group"></a>
 
+* [CLRS](a-group/clrs/README.md)
+  * [Sorting and Order Statistics](a-group/clrs/sorting-and-order-statistics/README.md)
+    * [Heapsort](a-group/clrs/sorting-and-order-statistics/heapsort.md)
 * [Problems](a-group/commonalgorithms/README.md)
   * [String](a-group/commonalgorithms/string/README.md)
     * [KMP](a-group/commonalgorithms/string/kmp.md)
