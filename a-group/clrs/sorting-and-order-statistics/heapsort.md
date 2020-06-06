@@ -27,6 +27,7 @@ for i = A.length/2 to 1
     MAX-HEAPIFY(A, i)
     
 // Time complexity O(h)    
+
 MAX-HEAPIFY(A, i):
 l = Left(i)
 r = right(i)
@@ -38,5 +39,16 @@ if r <= A.heap-size and A[r] > A[largest]
 if (largest != i)
     exchange A[i] with A[largest]
     MAX-HEAPIFY(A, largest) 
+```
+
+### Heap sort algorithm
+
+```bash
+// Time complexity O(nlgn)
+BUILD-MAX-HEAP(A)
+for i = A.length to 2
+    exchange A[1] with A[i]
+    A.heap-szie = A.heap-size - 1
+    MAX-HEAPIFY(A, i)
 ```
 
