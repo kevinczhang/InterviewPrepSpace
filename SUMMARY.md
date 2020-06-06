@@ -9,6 +9,8 @@
     * [Heapsort](a-group/clrs/sorting-and-order-statistics/heapsort.md)
     * [Quicksort](a-group/clrs/sorting-and-order-statistics/quicksort.md)
     * [Linear sort](a-group/clrs/sorting-and-order-statistics/counting-sort.md)
+  * [Data Structures](a-group/clrs/data-structures/README.md)
+    * [Binary Search Tree](a-group/clrs/data-structures/binary-search-tree.md)
 * [Problems](a-group/commonalgorithms/README.md)
   * [String](a-group/commonalgorithms/string/README.md)
     * [KMP](a-group/commonalgorithms/string/kmp.md)
