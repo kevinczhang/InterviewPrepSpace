@@ -21,6 +21,7 @@ The root of the tree is A\[0\], and given the index i of a node, we can easily c
 
 ```bash
 // Time complexity O(n)
+// A[n/2 + 1..n] are all leaves of the tree
 A.heap-size = A.length
 for i = A.length/2 to 1
     MAX-HEAPIFY(A, i)
