@@ -5,7 +5,7 @@
 ## Algorithm <a id="a-group"></a>
 
 * [CLRS](a-group/clrs/README.md)
-  * [Sorting and Order Statistics](a-group/clrs/sorting-and-order-statistics/README.md)
+  * [Sorting](a-group/clrs/sorting-and-order-statistics/README.md)
     * [Heapsort](a-group/clrs/sorting-and-order-statistics/heapsort.md)
     * [Quicksort](a-group/clrs/sorting-and-order-statistics/quicksort.md)
     * [Linear sort](a-group/clrs/sorting-and-order-statistics/counting-sort.md)

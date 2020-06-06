@@ -55,3 +55,24 @@ exchange A[r] with A[i]
 return PARTITION(A, p, r)
 ```
 
+## Selection in expected linear time
+
+Expected running time of RANDOMIZED-SELECT is $$\Theta(n)$$.
+
+### RANDOMIZED-SELECT\(A, p, r, i\)
+
+```bash
+if p == r
+    return A[p]
+q = RANDOMIZED-PARTITION(A, p, r)
+k = q - p + 1
+if i == k  // the pivot value is the answer
+    return A[q]
+elseif i < k
+    return RANDOMIZED-SELECT(A, p, q - 1, i)
+else 
+    return RANDOMIZED-SELECT(A, q + 1, r, i - k)
+```
+
+
+
