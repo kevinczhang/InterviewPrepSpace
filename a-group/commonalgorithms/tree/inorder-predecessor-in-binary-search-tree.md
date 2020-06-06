@@ -4,7 +4,7 @@
 
 ![Sample BST](../../../.gitbook/assets/image%20%2818%29.png)
 
-In above binary search tree, in-order predecessor of 17 is 15 , predecessor of 6 is 4 and predecessor of 13 is 9.  
+Inorder visiting order is:  2, 3, 4, 6, 7, 9, 13, 15, 17, 18, 20. So In above binary search tree, in-order predecessor of 17 is 15 , predecessor of 6 is 4 and predecessor of 13 is 9.  
 
 
 ## If tree nodes have pointer to their parents
