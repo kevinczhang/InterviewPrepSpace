@@ -38,5 +38,25 @@ for i = 1 to d
     use a stable sort to sort array A on digit i // like counting sort
 ```
 
-Given n d-digit numbers in which each digit can take on up to k possible values, RADIX-SORT correctly sorts these numbers in $$\Theta(d(n+k))$$ ‚.d.n C k// time if the stable sort it uses takes $$\Theta(n+k)$$  time.
+Given n d-digit numbers in which each digit can take on up to k possible values, RADIX-SORT correctly sorts these numbers in $$\Theta(d(n+k))$$ time if the stable sort it uses takes $$\Theta(n+k)$$  time.
+
+## Bucket sort
+
+Bucket sort assumes that the input is drawn from a uniform distribution and has an average-case running time of O\(n\). Average running time is $$\Theta(n)$$.
+
+### BUCKET-SORT\(A\)
+
+```bash
+let B[0 .. n] be a new array
+n = A.length
+for i = 0 to n - 1
+    make B[i] an empty list
+for i = 1 to n
+    insert A[i] into list B[nA[i]]
+for i = 0 to n - 1
+    sort list B[i] with insertion sort
+concatenate the lists B[0], B[1], ..., B[n - 1] together in order
+```
+
+
 
