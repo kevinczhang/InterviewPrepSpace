@@ -8,6 +8,7 @@
   * [Sorting and Order Statistics](a-group/clrs/sorting-and-order-statistics/README.md)
     * [Heapsort](a-group/clrs/sorting-and-order-statistics/heapsort.md)
     * [Quicksort](a-group/clrs/sorting-and-order-statistics/quicksort.md)
+    * [Counting sort](a-group/clrs/sorting-and-order-statistics/counting-sort.md)
 * [Problems](a-group/commonalgorithms/README.md)
   * [String](a-group/commonalgorithms/string/README.md)
     * [KMP](a-group/commonalgorithms/string/kmp.md)
