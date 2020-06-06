@@ -10,6 +10,8 @@ Quicksort, like merge sort, applies the divide-and-conquer paradigm. Here is the
 
 ## Standard version
 
+Expected running time O\(nlgn\).
+
 ### QUICKSORT\(A, p, r\)
 
 ```bash
@@ -33,6 +35,8 @@ return i + 1
 ```
 
 ## Randomized version
+
+Expected running time O\(nlgn\).
 
 ### RANDOMIZED-QUICKSORT\(A, p, r\)
 
