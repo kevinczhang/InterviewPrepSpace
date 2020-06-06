@@ -10,7 +10,7 @@ Quicksort, like merge sort, applies the divide-and-conquer paradigm. Here is the
 
 ## Standard version
 
-Average running time O\(nlgn\).
+Average running time $$\Theta(nlgn)$$.
 
 ### QUICKSORT\(A, p, r\)
 

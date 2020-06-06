@@ -23,7 +23,20 @@ for j = A.length downto 1
 
 An important property of counting sort is that it is stable: numbers with the same value appear in the output array in the same order as they do in the input array.
 
+running time is $$\Theta(n)$$.
+
 ## Radix sort
 
-Radix sort is the algorithm used by the card-sorting machines you now find only in computer museums.
+Radix sort solves the problem of card sorting—counterintuitively—by sorting on the least significant digit first. The process continues until the cards have been sorted on all d digits.
+
+In order for radix sort to work correctly, the digit sorts must be stable.
+
+### RADIX-SORT\(A, d\)
+
+```bash
+for i = 1 to d
+    use a stable sort to sort array A on digit i // like counting sort
+```
+
+Given n d-digit numbers in which each digit can take on up to k possible values, RADIX-SORT correctly sorts these numbers in $$\Theta(d(n+k))$$ ‚.d.n C k// time if the stable sort it uses takes $$\Theta(n+k)$$  time.
 
