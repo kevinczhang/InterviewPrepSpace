@@ -54,5 +54,51 @@ for i = A.length to 2
 
 ## Priority Queue
 
+A **priority queue** is a data structure for maintaining a set _S_ of elements, each with an associated value called a **key**.
 
+A max-priority queue supports the following operations: 
+
+* INSERT\(S, x\): inserts the element x into the set S, which is equivalent to the operation S = S U {x}. 
+* MAXIMUM\(S\): returns the element of S with the largest key. 
+* EXTRACT-MAX\(S\): removes and returns the element of S with the largest key. 
+* INCREASE-KEY\(S,x, k\): increases the value of element x’s key to the new value k, which is assumed to be at least as large as x’s current key value.
+
+#### HEAP-MAXIMUM\(A\)
+
+```bash
+return A[1]
+```
+
+#### HEAP-EXTRACT-MAX\(A\)
+
+Time complexity O\(lgn\)
+
+```bash
+if A.heap-size < 1
+    error “heap underflow”
+max = A[1]
+A[1] = A[A.heap-size]
+A.heap-size = A.heap-size - 1
+MAX-HEAPIFY(A, 1)
+return max
+```
+
+#### HEAP-INCREASE-KEY\(A, i, key\)
+
+```bash
+if key < A[i]
+    error “new key is smaller than current key”
+A[i] = key
+while i > 1 and A[PARENT(i)] < A[i]
+    exchange A[i] with A[PARENT(i)]
+    i = PARENT(i)
+```
+
+#### MAX-HEAP-INSERT\(A, key\)
+
+```bash
+A.heap-size = A.heap-size + 1
+A[A.heap-size] = -infinite
+HEAP-INCREASE-KEY(A, A.heap-size, key)
+```
 
