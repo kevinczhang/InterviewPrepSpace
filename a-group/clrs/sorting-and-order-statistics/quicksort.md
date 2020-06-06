@@ -1,5 +1,11 @@
 # Quicksort
 
+Quicksort, like merge sort, applies the divide-and-conquer paradigm. Here is the three-step divide-and-conquer process for sorting a typical subarray A\[p .. r\]:
+
+* **Divide:** Partition \(rearrange\) the array A\[p .. r\] into two \(possibly empty\) subarrays A\[p .. q -1\] and A\[q + 1 .. r\].
+* **Conquer:** Sort the two subarrays A\[p .. q -1\] and A\[q + 1 .. r\] by recursive calls to quicksort.
+* **Combine:** Because the subarrays are already sorted, no work is needed to combine them: the entire array A\[p .. r\] is now sorted.
+
 ## QUICKSORT\(A, p, r\)
 
 ```bash
