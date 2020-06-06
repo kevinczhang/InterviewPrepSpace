@@ -17,5 +17,25 @@ The root of the tree is A\[0\], and given the index i of a node, we can easily c
 * LEFT node index of node i: 2\(i+1\) - 1
 * RIGHT node index of node i: 2\(i+1\)
 
+### Heap build algorithm
 
+```bash
+// Time complexity O(n)
+A.heap-size = A.length
+for i = A.length/2 to 1
+    MAX-HEAPIFY(A, i)
+    
+// Time complexity O(h)    
+MAX-HEAPIFY(A, i):
+l = Left(i)
+r = right(i)
+largest = i
+if l <= A.heap-size and A[l] > A[i]
+    largest = l;
+if r <= A.heap-size and A[r] > A[largest]
+    largest = r;
+if (largest != i)
+    exchange A[i] with A[largest]
+    MAX-HEAPIFY(A, largest) 
+```
 
