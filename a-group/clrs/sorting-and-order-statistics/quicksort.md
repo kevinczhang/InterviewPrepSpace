@@ -34,14 +34,6 @@ return i + 1
 
 ## Randomized version
 
-### RANDOMIZED-PARTITION\(A, p, r\)
-
-```bash
-i = RANDOM(p, r)
-exchange A[r] with A[i]
-return PARTITION(A, p, r)
-```
-
 ### RANDOMIZED-QUICKSORT\(A, p, r\)
 
 ```bash
@@ -49,5 +41,13 @@ if p < r
     q = RANDOMIZED-PARTITION(A, p, r)
     RANDOMIZED-QUICKSORT(A, p, q - 1)
     RANDOMIZED-QUICKSORT(A, q + 1, r)
+```
+
+### RANDOMIZED-PARTITION\(A, p, r\)
+
+```bash
+i = RANDOM(p, r)
+exchange A[r] with A[i]
+return PARTITION(A, p, r)
 ```
 
