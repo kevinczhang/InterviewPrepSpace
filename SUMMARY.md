@@ -10,6 +10,7 @@
     * [Quicksort](a-group/clrs/sorting-and-order-statistics/quicksort.md)
     * [Linear sort](a-group/clrs/sorting-and-order-statistics/counting-sort.md)
   * [Data Structures](a-group/clrs/data-structures/README.md)
+    * [Hash Table](a-group/clrs/data-structures/hash-table.md)
     * [Binary Search Tree](a-group/clrs/data-structures/binary-search-tree.md)
 * [Problems](a-group/commonalgorithms/README.md)
   * [String](a-group/commonalgorithms/string/README.md)

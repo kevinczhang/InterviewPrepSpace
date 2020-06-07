@@ -2,13 +2,41 @@
 
 The search tree data structure supports many dynamic-set operations, including SEARCH, MINIMUM, MAXIMUM, PREDECESSOR, SUCCESSOR, INSERT, and DELETE. Thus, we can use a search tree both as a dictionary and as a priority queue.
 
-The keys in a binary search tree are always stored in such a way as to satisfy the binary-search-tree property: 
+The keys in a binary search tree are always stored in such a way as to satisfy the **binary-search-tree property**: 
 
 {% hint style="info" %}
 Let x be a node in a binary search tree. If y is a node in the left subtree of x, then y.key &lt;= x.key. If y is a node in the right subtree of x, then y.key &gt;= x.key.
 {% endhint %}
 
+## Minimum and maximum
 
+#### TREE-MINIMUM\(x\)
 
+```bash
+while x.left != NIL
+    x = x:left
+return x
+```
 
+#### TREE-MAXIMUM\(x\)
+
+```bash
+while x.right != NIL
+    x = x.right
+return x
+```
+
+## Successor and predecessor
+
+#### TREE-SUCCESSOR\(x\)
+
+```bash
+if x.right != NIL
+    return TREE-MINIMUM(x.right)
+y = x.p
+while y != NIL and x == y.right
+    x = y
+    y = y.p
+return y
+```
 
