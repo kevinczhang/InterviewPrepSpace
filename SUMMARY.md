@@ -19,7 +19,7 @@
     * [Binary Tree Preorder Traversal](a-group/commonalgorithms/tree/tree-preorder-traversal.md)
     * [Binary Tree Postorder Traversal](a-group/commonalgorithms/tree/binary-tree-postorder-traversal.md)
     * [Remove Node in Binary Search Tree](a-group/commonalgorithms/tree/remove-node-in-binary-search-tree.md)
-    * [Inorder predecessor in Binary Search Tree](a-group/commonalgorithms/tree/inorder-predecessor-in-binary-search-tree.md)
+    * [Inorder predecessor in BST](a-group/commonalgorithms/tree/inorder-predecessor-in-binary-search-tree.md)
     * [Inorder Successor in BST](a-group/commonalgorithms/tree/inorder-successor-in-bst.md)
   * [Backtrack](a-group/commonalgorithms/backtrack/README.md)
     * [Combinations](a-group/commonalgorithms/backtrack/combinations.md)
