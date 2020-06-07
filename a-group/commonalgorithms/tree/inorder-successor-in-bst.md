@@ -36,6 +36,30 @@ Explanation:
 
 O\(h\), where h is the height of the BST.
 
+## If tree nodes have pointer to their parents
+
+```java
+public TreeNode withPointerToParent(TreeNode root, TreeNode x) {
+		TreeNode successor = null;
+		if(x.right != null) {
+			successor = x.right;
+			while(successor.left != null) {
+				successor = successor.left;
+			}			
+		} else {
+			successor = x.parent;
+			while (successor != null && x == successor.right) {
+				x = successor;
+				successor = successor.parent;
+			}
+		}
+
+		return successor;		
+	}
+```
+
+## If tree nodes don't have pointer to their parents
+
 ```java
 /**
  * Definition for a binary tree node.
