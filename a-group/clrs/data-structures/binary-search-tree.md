@@ -72,3 +72,19 @@ elseif z.key < y.key
 else y.right = z
 ```
 
+## Deletion
+
+When TRANSPLANT replaces the subtree rooted at node _u_ with the subtree rooted at node _v_, node _u_’s parent becomes node _v_’s parent, and _u_’s parent ends up having _v_ as its appropriate child.
+
+#### TRANSPLANT\(T, u, v\)
+
+```bash
+if u.p == NIL
+    T.root = v
+elseif u == u.p.left
+    u.p.left = v
+else u.p.right = v
+if v != NIL
+    v.p = u.p
+```
+
