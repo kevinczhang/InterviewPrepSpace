@@ -52,3 +52,23 @@ while y != NIL and x == y.left
 return y
 ```
 
+## Insertion
+
+#### TREE-INSERT\(T,z\)
+
+```bash
+y = NIL
+x = T.root
+while x != NIL
+    y = x
+    if z.key < x.key
+        x = x.left
+    else x = x.right
+z.p = y
+if y == NIL
+    T.root = z // tree T was empty
+elseif z.key < y.key
+    y.left = z
+else y.right = z
+```
+
