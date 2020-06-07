@@ -40,3 +40,15 @@ while y != NIL and x == y.right
 return y
 ```
 
+#### TREE-PREDECESSOR\(x\)
+
+```bash
+if x.left != NIL
+    return TREE-MAXIMUM(x.left)
+y = x.p
+while y != NIL and x == y.left
+    x = y
+    y = y.p
+return y
+```
+
