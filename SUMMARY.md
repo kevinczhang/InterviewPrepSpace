@@ -12,6 +12,8 @@
   * [Data Structures](a-group/clrs/data-structures/README.md)
     * [Hash Table](a-group/clrs/data-structures/hash-table.md)
     * [Binary Search Tree](a-group/clrs/data-structures/binary-search-tree.md)
+  * [Advanced Algorithm](a-group/clrs/advanced-algorithm/README.md)
+    * [Greedy Algorithm](a-group/clrs/advanced-algorithm/greedy-algorithm.md)
 * [Problems](a-group/commonalgorithms/README.md)
   * [String](a-group/commonalgorithms/string/README.md)
     * [KMP](a-group/commonalgorithms/string/kmp.md)
