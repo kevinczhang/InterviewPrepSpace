@@ -43,6 +43,8 @@
     * [Maximum Product Subarray](a-group/commonalgorithms/dynamic-programming/maximum-product-subarray.md)
     * [Maximum Subarray](a-group/commonalgorithms/dynamic-programming/maximum-subarray.md)
     * [Distinct Subsequences](a-group/commonalgorithms/dynamic-programming/distinct-subsequences.md)
+  * [Data structure](a-group/commonalgorithms/data-structure/README.md)
+    * [Ugly Number II](a-group/commonalgorithms/data-structure/ugly-number-ii.md)
   * [Sorting and Searching](a-group/commonalgorithms/sorting-and-searching/README.md)
     * [Top K Frequent Elements](a-group/commonalgorithms/sorting-and-searching/top-k-frequent-elements.md)
     * [Kth Largest Element in an Array](a-group/commonalgorithms/sorting-and-searching/kth-largest-element-in-an-array.md)
