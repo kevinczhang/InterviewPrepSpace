@@ -2,7 +2,7 @@
 description: Common algorithm for string matching
 ---
 
-# KMP
+# strStr \(KMP\)
 
 Implement [strStr\(\)](http://www.cplusplus.com/reference/cstring/strstr/).
 
