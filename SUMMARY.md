@@ -37,6 +37,8 @@
   * [LinkedList](a-group/commonalgorithms/linkedlist/README.md)
     * [Reverse Linked List](a-group/commonalgorithms/linkedlist/reverse-linked-list.md)
     * [Copy List with Random Pointer](a-group/commonalgorithms/linkedlist/copy-list-with-random-pointer.md)
+  * [Greedy](a-group/commonalgorithms/greedy/README.md)
+    * [Delete Digits](a-group/commonalgorithms/greedy/delete-digits.md)
   * [Backtrack](a-group/commonalgorithms/backtrack/README.md)
     * [Combinations](a-group/commonalgorithms/backtrack/combinations.md)
     * [Permutations II](a-group/commonalgorithms/backtrack/permutations-ii.md)
