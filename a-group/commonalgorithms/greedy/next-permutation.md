@@ -1,8 +1,6 @@
 # Next Permutation
 
-Given a list of integers, which denote a permutation.
-
-Find the next permutation in ascending order.
+Given a list of integers, which denote a permutation. Find the next permutation in ascending order.
 
 #### Example
 
