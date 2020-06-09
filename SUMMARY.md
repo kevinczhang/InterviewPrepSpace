@@ -33,6 +33,7 @@
     * [Inorder Successor in BST](a-group/commonalgorithms/tree/inorder-successor-in-bst.md)
   * [Bit Manipulation](a-group/commonalgorithms/bit-manipulation/README.md)
     * [Update Bits](a-group/commonalgorithms/bit-manipulation/update-bits.md)
+    * [Binary Representation](a-group/commonalgorithms/bit-manipulation/binary-representation.md)
   * [Backtrack](a-group/commonalgorithms/backtrack/README.md)
     * [Combinations](a-group/commonalgorithms/backtrack/combinations.md)
     * [Permutations II](a-group/commonalgorithms/backtrack/permutations-ii.md)
