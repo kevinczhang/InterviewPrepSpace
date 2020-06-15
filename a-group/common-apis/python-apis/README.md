@@ -2,7 +2,7 @@
 description: 'In this section, all commonly used Python APIs are listed'
 ---
 
-# Python APIs
+# Python
 
 ## Built-in types heritage
 
