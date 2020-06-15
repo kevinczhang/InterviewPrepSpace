@@ -15,7 +15,7 @@
     * [Graph](a-group/clrs/data-structures/graph.md)
   * [Advanced Algorithm](a-group/clrs/advanced-algorithm/README.md)
     * [Greedy Algorithm](a-group/clrs/advanced-algorithm/greedy-algorithm.md)
-* [Problems](a-group/commonalgorithms/README.md)
+* [Classic problems](a-group/commonalgorithms/README.md)
   * [Array](a-group/commonalgorithms/array/README.md)
     * [Next Permutation](a-group/commonalgorithms/array/next-permutation.md)
     * [First Missing Positive](a-group/commonalgorithms/array/first-missing-positive.md)
