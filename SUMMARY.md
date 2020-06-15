@@ -102,9 +102,11 @@
   * [Sharding a Database](design/storage-design/sharding-a-database.md)
   * [Highly Available Database](design/storage-design/highly-available-database.md)
   * [Highly Consistent Database](design/storage-design/highly-consistent-database.md)
-* [Companies](companies.md)
-* [Facebook](facebook/README.md)
-  * [LC - Till Date 07-Jun-2020](facebook/lc-till-date-07-jun-2020.md)
-* [Google](google/README.md)
-  * [2020 from June](google/2020-from-june.md)
+
+## Companies <a id="companies-1"></a>
+
+* [Facebook](companies-1/facebook/README.md)
+  * [LC - Till Date 07-Jun-2020](companies-1/facebook/lc-till-date-07-jun-2020.md)
+* [Google](companies-1/google/README.md)
+  * [2020 from June](companies-1/google/2020-from-june.md)
 
