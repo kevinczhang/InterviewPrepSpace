@@ -8,38 +8,39 @@ Given \[1, 20, 23, 4, 8\], the largest formed number is 8423201.
 
 ```java
 public class Solution {
-    /**
-     *@param num: A list of non negative integers
-     *@return: A string
-     */
     public String largestNumber(int[] num) {
-        String[] numStrings = new String[num.length];
-        for (int i = 0; i < num.length; i++){
-            numStrings[i] = String.valueOf(num[i]); 
-            Arrays.sort(numStrings, NumberComparator);
-        
-            StringBuilder res = new StringBuilder();
-            for(String n : numStrings) res.append(n);
-            return res.charAt(0) == '0' ? "0" : res.toString();
+		String[] numNew = new String[num.length];
+        for (int i=0; i<num.length; i++) numNew[i] = String.valueOf(num[i]);        
+        Arrays.sort(numNew, NumberComparator);
+        StringBuffer strBuf = new StringBuffer();
+        for (int i=num.length-1; i>=0; i--) {
+            strBuf.append(String.valueOf(numNew[i]));
         }
-    
-        Comparator<String> NumberComparator = new Comparator<String>(){
-            public int compare(String num1, String num2){
-                int cur = 0;
-                while(cur < num1.length() && cur < num2.length()){
-                    if(num1.charAt(cur) == num2.charAt(cur))
-                        cur++;
-                    else
-                        return num2.charAt(cur) - num1.charAt(cur);
-                }
-                if(cur < num1.length()) return compare(num1.substring(cur), num2);
-                if(cur < num2.length()) return compare(num1, num2.substring(cur));
-                return 0;
-           }
-        };
+        return strBuf.charAt(0) == '0' ? "0" : strBuf.toString();
     }
-}
+	
+	Comparator<String> NumberComparator = new Comparator<String>(){
 
+		public int compare(String i1, String i2) {       
+            int i=0;
+            while (i < i1.length() && i < i2.length()) {  
+                int diff = i1.charAt(i) - i2.charAt(i);
+                if (diff == 0) {
+                    i++;
+                } else {
+                    return diff;
+                }
+            }  
+            if (i < i1.length()) {
+                return compare(i1.substring(i), i2);
+            } else if (i < i2.length()) {
+                return compare(i1, i2.substring(i));
+            } else {
+                return 0;
+            }
+        }		
+	};
+}
 ```
 
 
