@@ -107,6 +107,7 @@
 
 * [Facebook](companies-1/facebook/README.md)
   * [LC - Till Date 07-Jun-2020](companies-1/facebook/lc-till-date-07-jun-2020.md)
+* [Amazon](companies-1/amazon.md)
 * [Google](companies-1/google/README.md)
   * [2020 from June](companies-1/google/2020-from-june.md)
 
