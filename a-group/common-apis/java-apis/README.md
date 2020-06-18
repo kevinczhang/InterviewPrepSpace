@@ -47,3 +47,32 @@ All following methods are static methods
 8.  [`sort`](https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html#sort-T:A-java.util.Comparator-)`(T[] a,` [`Comparator`](https://docs.oracle.com/javase/8/docs/api/java/util/Comparator.html)`<? super T> c)`Sorts the specified array of objects according to the order induced by the specified comparator.
 9.  [`sort`](https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html#sort-T:A-int-int-java.util.Comparator-)`(T[] a, int fromIndex, int toIndex,` [`Comparator`](https://docs.oracle.com/javase/8/docs/api/java/util/Comparator.html)`<? super T> c)`Sorts the specified range of the specified array of objects according to the order induced by the specified comparator.
 
+## Comparator and Comparable interface
+
+1. Most common methods from Comparator interface: compare\(T o1, T o2\), equals\(Object object\) 
+2. Most common methods from Comparable interface: compareTo\(T o\). 
+
+### Examples:
+
+```java
+// 1) Comparable interface
+class HDTV implements Comparable<HDTV> {
+    @Override
+    public int compareTo(HDTV tv) {
+        if (this.getSize() > tv.getSize()) return 1;
+        if (this.getSize() < tv.getSize()) return -1;
+        return 0;
+    }
+}
+// 2) Comparator interface
+class SizeComparator implements Comparator<HDTV> {
+    @Override
+    public int compare(HDTV tv1, HDTV tv2) {
+        int tv1Size = tv1.getSize(), tv2Size = tv2.getSize();
+        if (tv1Size > tv2Size)  return 1;
+        if (tv1Size < tv2Size)  return -1;
+        return 0;
+    }
+}
+```
+
