@@ -4,7 +4,7 @@ description: Common algorithms for string
 
 # String
 
-## KPM
+## KPM for string matching
 
 Implement [strStr\(\)](http://www.cplusplus.com/reference/cstring/strstr/).
 
