@@ -23,7 +23,6 @@
     * [Largest Number](a-group/commonalgorithms/array/largest-number.md)
     * [Largest Rectangle in Histogram](a-group/commonalgorithms/array/largest-rectangle-in-histogram.md)
   * [String](a-group/commonalgorithms/string/README.md)
-    * [strStr \(KMP\)](a-group/commonalgorithms/string/kmp.md)
     * [Shortest Palindrome](a-group/commonalgorithms/string/shortest-palindrome.md)
     * [Text Justification](a-group/commonalgorithms/string/text-justification.md)
   * [LinkedList](a-group/commonalgorithms/linkedlist/README.md)
