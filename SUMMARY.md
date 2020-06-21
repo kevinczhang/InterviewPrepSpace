@@ -19,7 +19,6 @@
   * [Array](a-group/commonalgorithms/array/README.md)
     * [Next Permutation](a-group/commonalgorithms/array/next-permutation.md)
     * [First Missing Positive](a-group/commonalgorithms/array/first-missing-positive.md)
-    * [Kth Largest Element in an Array](a-group/commonalgorithms/array/kth-largest-element-in-an-array.md)
     * [Largest Number](a-group/commonalgorithms/array/largest-number.md)
     * [Largest Rectangle in Histogram](a-group/commonalgorithms/array/largest-rectangle-in-histogram.md)
   * [String](a-group/commonalgorithms/string/README.md)
