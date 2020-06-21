@@ -4,6 +4,10 @@ description: Common algorithms for string
 
 # String
 
+## Common methods
+
+Refer to String of Languages section
+
 ## KPM for string matching
 
 Implement [strStr\(\)](http://www.cplusplus.com/reference/cstring/strstr/).
