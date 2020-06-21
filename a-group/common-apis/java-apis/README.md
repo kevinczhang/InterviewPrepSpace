@@ -51,7 +51,13 @@ All following methods are static methods
 
 1. Most common methods from Comparator interface: compare\(T o1, T o2\), equals\(Object object\) 
 2. Most common methods from Comparable interface: compareTo\(T o\). 
-3. \(ins1, inst2\) -&gt; { return ins1 - ins2 }
+3. lamda expression
+
+   ```java
+   (tv1, tv2) -> {
+       return tv1.getSize() - tv2.getSize();
+   }
+   ```
 
 ### Examples:
 
