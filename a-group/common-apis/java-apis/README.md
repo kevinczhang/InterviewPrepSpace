@@ -51,7 +51,7 @@ All following methods are static methods
 
 1. Most common methods from Comparator interface: compare\(T o1, T o2\), equals\(Object object\) 
 2. Most common methods from Comparable interface: compareTo\(T o\). 
-3. lamda expression
+3. lamda expression. Following expression can order from small to large
 
    ```java
    (tv1, tv2) -> {
