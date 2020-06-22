@@ -76,7 +76,69 @@ class Solution {
 }
 ```
 
+```java
+class Solution1 {
+    public int strStr(String haystack, String needle) {
 
+        if (needle == null || haystack == null || needle.length() > haystack.length())
+            return -1;
+        if (needle.length() == 0){
+            return 0;
+        }
+
+        int M = needle.length();
+        int N = haystack.length();
+
+        // create lps[] that will hold the longest prefix suffix values for pattern
+        int j = 0; // index for needle
+        // Preprocess the pattern (calculate lps[] array)
+        int[] lps = computeLPSArray(needle);
+
+        int i = 0; // index for haystack
+        while (i < N) {
+            if (needle.charAt(j) == haystack.charAt(i)) {
+                j++;
+                i++;
+            }
+            if (j == M) { // Find the match
+                return i - M;
+            } else if (i < N && needle.charAt(j) != haystack.charAt(i)) { 
+                // mismatch after j matches
+                // Do not match lps[0..lps[j-1]] characters, they will match anyway
+                if (j != 0)
+                    j = lps[j - 1];
+                else
+                    i = i + 1;
+            }
+        }
+        return -1;
+    }
+
+    // Generate prefix function for the pattern
+    int[] computeLPSArray(String pat) {
+        int len = 0; // length of the previous longest prefix suffix
+        int i = 1;
+        int lps[] = new int[pat.length()];
+        lps[0] = 0; // lps[0] is always 0
+
+        while (i < pat.length()) {
+            if (pat.charAt(i) == pat.charAt(len)) {
+                len++;
+                lps[i] = len;
+                i++;
+            } else {
+                if (len != 0) {
+                    len = lps[len - 1];
+                } else {
+                    lps[i] = len;
+                    i++;
+                }
+            }
+        }
+        return lps;
+    }
+}
+```
 
 
 
