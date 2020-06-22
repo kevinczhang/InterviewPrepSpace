@@ -118,7 +118,7 @@ class Solution1 {
     int[] computeLPSArray(String pat) {
         int len = 0; // length of the previous longest prefix suffix
         int i = 1;
-        int lps[] = new int[pat.length()];
+        int[] lps = new int[pat.length()];
         lps[0] = 0; // lps[0] is always 0
 
         while (i < pat.length()) {
