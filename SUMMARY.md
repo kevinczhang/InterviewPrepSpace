@@ -91,7 +91,8 @@
 
 ## Design
 
-* [Object Oriented Design](design/object-oriented-design.md)
+* [Object Oriented Design](design/object-oriented-design/README.md)
+  * [Parking Lot](design/object-oriented-design/parking-lot.md)
 * [System design](design/system-design/README.md)
   * [Large social network](design/system-design/large-social-network.md)
   * [Billion pages](design/system-design/billion-pages.md)
