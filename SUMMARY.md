@@ -91,6 +91,7 @@
 
 ## Design
 
+* [Object Oriented Design](design/object-oriented-design.md)
 * [System design](design/system-design/README.md)
   * [Large social network](design/system-design/large-social-network.md)
   * [Billion pages](design/system-design/billion-pages.md)
