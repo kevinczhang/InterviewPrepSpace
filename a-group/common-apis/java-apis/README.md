@@ -59,6 +59,18 @@ All following methods are static methods
    }
    ```
 
+```java
+public interface Comparator<T> {
+    int compare(T object1, T object2);
+}
+```
+
+The `compare()` method compares two objects to each other and should:
+
+* Return a **negative** value if object1 is **smaller** than object2
+* Return **0 \(zero\)** if objec1 is **equal** to object2.
+* Return a **positive** value if object1 is **larger** than object2.
+
 ### Examples:
 
 ```java
