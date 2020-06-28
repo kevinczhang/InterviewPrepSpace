@@ -8,9 +8,9 @@ You can assume that the bits j through i have enough space to fit all of M.
 
 #### Example
 
-Given N=\(10000000000\)2, M=\(10101\)2, i=2, j=6
+Given $$N = (10000000000)_2, M = (10101)_2, i = 2, j = 6$$ 
 
-return N=\(10001010100\)2
+return $$N = (10001010100)_2$$ 
 
 ```java
 class Solution {
