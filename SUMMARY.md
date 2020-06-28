@@ -46,6 +46,7 @@
   * [Bit Manipulation](a-group/commonalgorithms/bit-manipulation/README.md)
     * [Update Bits](a-group/commonalgorithms/bit-manipulation/update-bits.md)
     * [Binary Representation](a-group/commonalgorithms/bit-manipulation/binary-representation.md)
+    * [A + B Problem](a-group/commonalgorithms/bit-manipulation/a-+-b-problem.md)
   * [Greedy](a-group/commonalgorithms/greedy/README.md)
     * [Delete Digits](a-group/commonalgorithms/greedy/delete-digits.md)
     * [Candy](a-group/commonalgorithms/greedy/candy.md)
