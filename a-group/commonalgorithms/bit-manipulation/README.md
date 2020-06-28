@@ -35,7 +35,7 @@ Bitwise XOR also takes two equal-length bit patterns. If both bits in the compar
 A ^ B = \(101\)2 ^ \(011\)2 = \(110\)2 = 6
 
 $$
-A\ ^ {\wedge} \ B = (101)_2 \ ^ {\wedge} \  (101)_2=(110)_2 = 6
+A\ ^ {\wedge} \ B = (101)_2 \ ^ {\wedge} \  (011)_2=(110)_2 = 6
 $$
 
 
