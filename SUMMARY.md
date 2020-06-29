@@ -94,17 +94,17 @@
 
 * [Object Oriented Design](design/object-oriented-design/README.md)
   * [Parking Lot](design/object-oriented-design/parking-lot.md)
+* [Storage design](design/storage-design/README.md)
+  * [Design Cache](design/storage-design/design-cache.md)
+  * [Sharding a Database](design/storage-design/sharding-a-database.md)
+  * [Highly Available Database](design/storage-design/highly-available-database.md)
+  * [Highly Consistent Database](design/storage-design/highly-consistent-database.md)
 * [System design](design/system-design/README.md)
   * [Large social network](design/system-design/large-social-network.md)
   * [Billion pages](design/system-design/billion-pages.md)
   * [Tiny URL](design/system-design/tiny-url.md)
   * [Distributed caching system](design/system-design/distributed-caching-system.md)
   * [Messenger Design](design/system-design/messenger-design.md)
-* [Storage design](design/storage-design/README.md)
-  * [Design Cache](design/storage-design/design-cache.md)
-  * [Sharding a Database](design/storage-design/sharding-a-database.md)
-  * [Highly Available Database](design/storage-design/highly-available-database.md)
-  * [Highly Consistent Database](design/storage-design/highly-consistent-database.md)
 
 ## Companies <a id="companies-1"></a>
 
