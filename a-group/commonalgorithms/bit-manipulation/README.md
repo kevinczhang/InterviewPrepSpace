@@ -54,3 +54,52 @@ $$
 -75 >> 1 = (10110101)_2  >> 1 = (11011010) = -38
 $$
 
+##  **Tricks with Bits**
+
+### x & \(-x\)
+
+Returns the rightmost 1 in binary representation of x
+
+```java
+x = 10 (1010)
+(-x) = -10 (0110)
+x & (-x) = (1010) & (0110) = (0010)
+```
+
+### Set Bit
+
+```java
+int setBit(int num, inti) {
+    return num | (1 << i);
+}
+```
+
+### Clear Bit
+
+#### Clear the ith bit and leave the remainder unchanged.
+
+```java
+int clearBit(int num, int i) {
+    int mask = = (1 << i);
+    return num & mask;
+}
+```
+
+#### Clear all bits from the most significant bit through i \(inclusive\).
+
+```java
+int clearBitsMSBthroughI(int num, inti) {
+    int mask = (1 << i) - 1;
+    return num & mask;
+}
+```
+
+#### Clear all bits from i through 0 \(inclusive\).
+
+```java
+int clearBitsithrough0(int num, int i) {
+    int mask = (-1 << (i + 1));
+    return num & mask;
+}
+```
+
