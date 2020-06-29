@@ -96,18 +96,21 @@ At a time, only a certain number of conversations will be in the viewport \( let
 Delta fetch: In most cases, our API calls will be made by users who are active on the site. As such, they already have a view of conversations till a certain timestamp and are only looking for updates after the timestamp \( which would typically be 0-2 more conversations \). For clients which are data sensitive \(like mobile\), fetching the whole page every time even when I have all of the conversations can be draining. So, we need to support a way of fetching only the updates when the lastFetchedTimestamp is closer to currentTimestamp. Keeping the above 2 facts in mind, following is how a hybrid API might look like :
 
 ```java
-ConversationResult fetchConversation(userId, pageNumber, pageSize, lastUpdatedTimestamp)
-	where ConversationResult has the following fields : 
-	ConversationResult { 
-		List(Conversation) conversations, 
-		boolean isDeltaUpdate 
-	} 
-	Conversation { 
-		conversationId, 
-		participants, 
-		snippet, 
-		lastUpdatedTimestamp
-	}
+ConversationResult fetchConversation(userId, pageNumber, 
+		pageSize, lastUpdatedTimestamp);
+	
+// where ConversationResult has the following fields : 
+ConversationResult { 
+	List(Conversation) conversations, 
+	boolean isDeltaUpdate 
+} 
+
+Conversation { 
+	conversationId, 
+	participants, 
+	snippet, 
+	lastUpdatedTimestamp
+}
 ```
 
 #### Q: How would the API for fetching most recent messages in a conversation look like? 
@@ -115,19 +118,21 @@ ConversationResult fetchConversation(userId, pageNumber, pageSize, lastUpdatedTi
 A: Fetch most recent message in a conversation : This API is almost identical to the fetchConversation API.
 
 ```java
-MessageResult fetchMessages(userId, pageNumber, pageSize, lastUpdatedTimestamp)
-	where MessageResult has the following fields : 
-	MessageResult {
-		List(Message) messages, 
-		boolean isDeltaUpdate
-	} 
-	Message {
-		messageId, 
-		senderId, 
-		participants, 
-		messageContent, 
-		sentTimestamp
-	}
+MessageResult fetchMessages(userId, pageNumber, pageSize, lastUpdatedTimestamp);
+
+// where MessageResult has the following fields : 
+MessageResult {
+	List(Message) messages, 
+	boolean isDeltaUpdate
+} 
+
+Message {
+	messageId, 
+	senderId, 
+	participants, 
+	messageContent, 
+	sentTimestamp
+}
 ```
 
 A: The first and last operation ends up doing a write to the database. The other operations are purely read operations. Following is how API's may look like:
@@ -164,7 +169,7 @@ Message {
 }
 ```
 
-#### Q: How would a typical write query look like? 
+### Q: How would a typical write query look like? 
 
 A: Components:
 
@@ -176,7 +181,7 @@ A: Components:
   * Store the message
   * Database server which stores the message.
 
-#### Q: How would a typical read query look like? 
+### Q: How would a typical read query look like? 
 
 A: Components: 
 
@@ -193,7 +198,7 @@ Let's dig deeper into every component one by one.
 
 Think about all details/gotchas yourself before beginning. 
 
-### Q: How would you take care of application layer fault tolerance? 
+#### Q: How would you take care of application layer fault tolerance? 
 
 #### Q: How do we handle the case where our application server dies? 
 
