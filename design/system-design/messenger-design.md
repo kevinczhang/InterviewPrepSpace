@@ -70,11 +70,13 @@ The next step in most cases is to come up with the barebone design of your syste
 
 Important : Try to gather feedback from the interviewer here to indicate if you are headed in the right direction. 
 
-#### Q: What are the operations that we need to support? 
+### Q: What are the operations that we need to support? 
 
-A: 1. Send a message to another person 2. For a user, fetch the most recent conversations • For every conversation, fetch the most recent messages
+1. Send a message to another person
+2. For a user, fetch the most recent conversations
+3. For every conversation, fetch the most recent messages
 
-#### Q: What would the API look like for the client? 
+### Q: What would the API look like for the client? 
 
 #### Q: How would the sendMessage API look like? 
 
