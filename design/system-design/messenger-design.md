@@ -32,9 +32,15 @@ This is usually the second part of a design interview, coming up with the estima
 
 Try to spend around 5 minutes for this section in the interview. 
 
-Let's estimate the volume of each. Assume that our system would be the one of the most popular messaging service. Q: Given the number of messages being sent, what is the amount of message sent data size we are generating everyday? A: Number of message sends : 10B Assuming each message on average has 160 characters , that results in 10B \* 160 = 1.6TB assuming no message metadata.
+Let's estimate the volume of each. Assume that our system would be the one of the most popular messaging service. 
 
-Q: What is the expected storage size? A: From the previous section, we know that we generate 1.6TB data everyday if we only store one copy of the message. If we were to provision for 10 years, we are looking at 1.6  _365_  10 TB which is approximately 6 Petabytes.
+**Q:** Given the number of messages being sent, what is the amount of message sent data size we are generating everyday? 
+
+**A:** Number of message sends : 10B Assuming each message on average has 160 characters , that results in 10B \* 160 = 1.6TB assuming no message metadata.
+
+**Q:** What is the expected storage size? 
+
+**A:** From the previous section, we know that we generate 1.6TB data everyday if we only store one copy of the message. If we were to provision for 10 years, we are looking at 1.6  _365_  10 TB which is approximately 6 Petabytes.
 
 ## Design Goals:
 
@@ -44,7 +50,11 @@ Q: What is the expected storage size? A: From the previous section, we know that
 
 • Availability - Does this problem require 100% availability?
 
-There could be more goals depending on the problem. It's possible that all parameters might be important, and some of them might conflict. In that case, you’d need to prioritize one over the other. Q: Is Latency a very important metric for us? A: Yes. Chat is supposed to be realtime, and hence the end to end time actually matters.
+There could be more goals depending on the problem. It's possible that all parameters might be important, and some of them might conflict. In that case, you’d need to prioritize one over the other. 
+
+#### Q: Is Latency a very important metric for us? 
+
+A: Yes. Chat is supposed to be realtime, and hence the end to end time actually matters.
 
 #### Q: How important is Consistency for us? 
 
