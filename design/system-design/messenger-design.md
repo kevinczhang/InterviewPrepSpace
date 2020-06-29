@@ -216,7 +216,7 @@ A: If we have only one application server machine, our whole service would becom
 
 This is the heart of the question. In the skeleton design, we assumed that the database is a black box which can magically store or retrieve anything efficiently. Let's dig into how we will build that magic black box.
 
-### Q: RDBMS or NoSQL? 
+#### Q: RDBMS or NoSQL? 
 
 #### Q: Are joins required? 
 
