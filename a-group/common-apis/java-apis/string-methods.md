@@ -1,6 +1,18 @@
-# String methods
+# Array and String
 
-## Most commonly used:
+## Arrays methods
+
+1.  [`asList`](https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html#asList-T...-)`(T... a)`Returns a fixed-size list backed by the specified array.
+2.  [`copyOf`](https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html#copyOf-T:A-int-)`(T[] original, int newLength)`Copies the specified array, truncating or padding with nulls \(if necessary\) so the copy has the specified length.
+3.  [`copyOfRange`](https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html#copyOfRange-T:A-int-int-)`(T[] original, int from, int to)`Copies the specified range of the specified array into a new array.
+4.  [`equals`](https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html#equals-java.lang.Object:A-java.lang.Object:A-)`(`[`Object`](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)`[] a,` [`Object`](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)`[] a2)`Returns true if the two specified arrays of Objects are equal to one another.
+5.  [`fill`](https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html#fill-java.lang.Object:A-java.lang.Object-)`(`[`Object`](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)`[] a,` [`Object`](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html) `val)`Assigns the specified Object reference to each element of the specified array of Objects.
+6.  [`sort`](https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html#sort-java.lang.Object:A-)`(`[`Object`](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)`[] a)`Sorts the specified array of objects into ascending order, according to the [natural ordering](https://docs.oracle.com/javase/8/docs/api/java/lang/Comparable.html) of its elements.
+7.  [`sort`](https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html#sort-java.lang.Object:A-int-int-)`(`[`Object`](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)`[] a, int fromIndex, int toIndex)`Sorts the specified range of the specified array of objects into ascending order, according to the [natural ordering](https://docs.oracle.com/javase/8/docs/api/java/lang/Comparable.html) of its elements.
+8.  [`sort`](https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html#sort-T:A-java.util.Comparator-)`(T[] a,` [`Comparator`](https://docs.oracle.com/javase/8/docs/api/java/util/Comparator.html)`<? super T> c)`Sorts the specified array of objects according to the order induced by the specified comparator.
+9.  [`sort`](https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html#sort-T:A-int-int-java.util.Comparator-)`(T[] a, int fromIndex, int toIndex,` [`Comparator`](https://docs.oracle.com/javase/8/docs/api/java/util/Comparator.html)`<? super T> c)`Sorts the specified range of the specified array of objects according to the order induced by the specified comparator.
+
+## String methods
 
 ```java
 String str = "test";
@@ -36,7 +48,7 @@ Character.toUpperCase(strChar);
 int StrCompareTo = "".compareTo(testStr);
 ```
 
-## Replace and split methods
+### Replace and split methods
 
 1.  [`replace`](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#replace-char-char-)`(char oldChar, char newChar);`Returns a string resulting from replacing all occurrences of `oldChar` in this string with `newChar`.
 2.  [`replaceAll`](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#replaceAll-java.lang.String-java.lang.String-)`(`[`String`](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html) `regex,` [`String`](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html) `replacement);`Replaces each substring of this string that matches the given [regular expression](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html#sum) with the given replacement.
@@ -62,7 +74,7 @@ String joinedStr1 = String.join(",", splitedStr);
 String joinedStr2 = String.join(",", "test1", "test2");
 ```
 
-## StringBuilder methods
+### StringBuilder methods
 
 1.  [`append`](https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuilder.html#append-boolean-)`(obj b);`Appends the string representation of the `object` argument to the sequence.
 2.  [`charAt`](https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuilder.html#charAt-int-)`(int index);`Returns the `char` value in this sequence at the specified index.

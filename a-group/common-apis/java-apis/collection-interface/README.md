@@ -46,6 +46,44 @@ while(itr.hasNext()) {
 7.  [`fill`](https://docs.oracle.com/javase/8/docs/api/java/util/Collections.html#fill-java.util.List-T-)`(`[`List`](https://docs.oracle.com/javase/8/docs/api/java/util/List.html)`<? super T> list, T obj)`Replaces all of the elements of the specified list with the specified element.
 8.  [`reverse`](https://docs.oracle.com/javase/8/docs/api/java/util/Collections.html#reverse-java.util.List-)`(`[`List`](https://docs.oracle.com/javase/8/docs/api/java/util/List.html)`<?> list)`Reverses the order of the elements in the specified list.
 
+## Comparator and Comparable interface
+
+1. Most common methods from Comparator interface: compare\(T o1, T o2\), equals\(Object object\) 
+2. Most common methods from Comparable interface: compareTo\(T o\). 
+3. lamda expression. Following expression can order from small to large
+
+   ```java
+   (tv1, tv2) -> {
+       return tv1.getSize() - tv2.getSize();
+   }
+   ```
+
+### Examples:
+
+```java
+// 1) Comparable interface
+class HDTV implements Comparable<HDTV> {
+    @Override
+    public int compareTo(HDTV tv) {
+        if (this.getSize() > tv.getSize()) return 1;
+        if (this.getSize() < tv.getSize()) return -1;
+        return 0;
+    }
+}
+// 2) Comparator interface
+class SizeComparator implements Comparator<HDTV> {
+    @Override
+    public int compare(HDTV tv1, HDTV tv2) {
+        int tv1Size = tv1.getSize(), tv2Size = tv2.getSize();
+        if (tv1Size > tv2Size)  return 1;
+        if (tv1Size < tv2Size)  return -1;
+        return 0;
+    }
+}
+```
+
+
+
 
 
 

@@ -69,7 +69,7 @@
     * [Top K Frequent Elements](a-group/commonalgorithms/data-structure/top-k-frequent-elements.md)
 * [Languages](a-group/common-apis/README.md)
   * [Java](a-group/common-apis/java-apis/README.md)
-    * [String methods](a-group/common-apis/java-apis/string-methods.md)
+    * [Array and String](a-group/common-apis/java-apis/string-methods.md)
     * [Collection Interface and Collections Class](a-group/common-apis/java-apis/collection-interface/README.md)
       * [Stream](a-group/common-apis/java-apis/collection-interface/stream.md)
       * [List Interface](a-group/common-apis/java-apis/collection-interface/list-interface.md)
