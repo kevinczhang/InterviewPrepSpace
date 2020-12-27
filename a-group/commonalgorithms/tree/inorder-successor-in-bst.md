@@ -36,7 +36,9 @@ Explanation:
 
 O\(h\), where h is the height of the BST.
 
-## If tree nodes have pointer to their parents
+## If tree nodes have pointer to their parents. 
+
+Can apply to binary tree
 
 ```java
 public TreeNode withPointerToParent(TreeNode root, TreeNode x) {

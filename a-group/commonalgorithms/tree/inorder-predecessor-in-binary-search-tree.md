@@ -1,4 +1,4 @@
-# Inorder predecessor in BST
+# Inorder predecessor
 
  The predecessor of a node x in a search tree is the node with largest key that belongs to the tree and that is strictly less than x’s key.
 
