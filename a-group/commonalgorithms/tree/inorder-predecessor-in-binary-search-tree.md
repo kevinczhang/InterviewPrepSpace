@@ -9,6 +9,8 @@ Inorder visiting order is:  2, 3, 4, 6, 7, 9, 13, 15, 17, 18, 20. So In above bi
 
 ## If tree nodes have pointer to their parents
 
+This algorithm applies to all binary tree
+
 ```java
 public TreeNode withPointerToParent(TreeNode root, TreeNode x) {
 		TreeNode predecessor = null;
@@ -30,6 +32,8 @@ public TreeNode withPointerToParent(TreeNode root, TreeNode x) {
 ```
 
 ## If tree nodes don't have pointer to their parents
+
+This algorithm only applies to binary search tree
 
 ```java
 public TreeNode withoutPointerToParent(TreeNode root, TreeNode x) {
