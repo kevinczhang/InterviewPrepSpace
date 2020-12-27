@@ -22,8 +22,10 @@ public ArrayList<Integer> preorderTraversal(TreeNode root) {
 	while(!stack.isEmpty()){
 		root = stack.pop();
 		res.add(root.val);
-		if(root.right != null) stack.push(root.right);
-		if(root.left != null) stack.push(root.left);
+		if(root.right != null) 
+			stack.push(root.right);
+		if(root.left != null) 
+			stack.push(root.left);
 	}
 	return res;
 }
