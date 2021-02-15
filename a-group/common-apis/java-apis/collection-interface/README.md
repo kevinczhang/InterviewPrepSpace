@@ -1,4 +1,8 @@
-# Collection Interface and Collections Class
+---
+description: Collection Interface and Collections Class
+---
+
+# Collection
 
 ## Collection Interface
 
