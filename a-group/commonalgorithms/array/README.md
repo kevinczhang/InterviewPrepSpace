@@ -31,7 +31,6 @@ Output: [-1,-1]
 ```java
 public class Solution {
     public int[] searchRange(int[] A, int target) {
-
 		int[] result = { -1, -1 };
 		if (A.length == 0)
 			return result;
@@ -46,22 +45,20 @@ public class Solution {
 	private int searchLow(int[] A, int target) {
 		int start = 0, end = A.length - 1, mid;
 		while (start < end) {
-			mid = (start + end) / 2;
+			mid = start + (end - start) / 2;
 			if (A[mid] < target) {
 				start = mid + 1;
 				continue;
 			}
 			end = mid;
 		}
-
 		return (A[start] == target) ? start : -1;
 	}
 
 	private int searchHigh(int[] A, int target, int start) {
-
 		int end = A.length-1, mid;
 		while (start <= end) {
-			mid = (start + end) / 2;
+			mid = start + (end - start) / 2;
 			if (A[mid] > target) {
 				end = mid-1;
 				continue;
