@@ -22,8 +22,6 @@ A dynamic programming algorithm proceeds bottom up, whereas a greedy strategy us
 
 A problem exhibits optimal substructure if an optimal solution to the problem contains within it optimal solutions to subproblems. This property is a key ingredient of assessing the applicability of dynamic programming as well as greedy algorithms.
 
-有哦那个
-
 用数学归纳法证明
 
 ## An activity-selection problem
