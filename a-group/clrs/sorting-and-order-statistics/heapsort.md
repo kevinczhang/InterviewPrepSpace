@@ -27,12 +27,11 @@ for i = A.length/2 to 1
     MAX-HEAPIFY(A, i)
     
 // Time complexity O(h)    
-
 MAX-HEAPIFY(A, i):
 l = Left(i)
 r = right(i)
 largest = i
-if l <= A.heap-size and A[l] > A[i]
+if l <= A.heap-size and A[l] > A[largest]
     largest = l;
 if r <= A.heap-size and A[r] > A[largest]
     largest = r;
